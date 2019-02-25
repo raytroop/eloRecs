@@ -1,0 +1,32 @@
+2019-02-09 13:10:52,574:INFO: train & test
+2019-02-09 13:10:52,809:INFO: Train samples: 201917, test samples: 123623
+2019-02-09 13:10:53,139:INFO: historical transactions
+2019-02-09 13:12:53,462:INFO: Memory usage after optimization is: 1832.41 MB
+2019-02-09 13:12:53,463:INFO: Decreased by 73.4%
+2019-02-09 13:19:05,387:INFO: Memory usage after optimization is: 56.19 MB
+2019-02-09 13:19:05,387:INFO: Decreased by 57.6%
+2019-02-09 13:19:06,022:INFO: new merchants
+2019-02-09 13:19:12,188:INFO: Memory usage after optimization is: 117.94 MB
+2019-02-09 13:19:12,188:INFO: Decreased by 71.9%
+2019-02-09 13:22:53,511:INFO: Memory usage after optimization is: 44.53 MB
+2019-02-09 13:22:53,511:INFO: Decreased by 57.6%
+2019-02-09 13:22:54,165:INFO: additional features
+2019-02-09 13:22:54,296:INFO: split train & test
+2019-02-09 13:22:54,465:INFO: optuna LightGBM start.
+2019-02-09 16:45:50,291:INFO: Number of finished trials: 100
+2019-02-09 16:45:50,291:INFO: Best trial:
+2019-02-09 16:45:50,296:INFO:   Value: 3.650513768022988
+2019-02-09 16:45:50,296:INFO:   Params: 
+2019-02-09 16:45:50,296:INFO:     boosting: gbdt
+    subsample: 0.718509060213284
+    max_depth: 8
+    top_rate: 0.8076614306859368
+    num_leaves: 45
+    min_child_weight: 59.174950161115106
+    reg_alpha: 17.018862389097798
+    reg_lambda: 24.20636870149939
+    colsample_bytree: 0.667864732544997
+    min_split_gain: 8.021790442813048
+    min_data_in_leaf: 30
+
+2019-02-09 16:45:50,296:INFO: optuna LightGBM finished.
